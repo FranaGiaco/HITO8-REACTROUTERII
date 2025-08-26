@@ -3,13 +3,13 @@ import { Routes, Route } from 'react-router-dom';
 import ProtectedRoute from './routes/ProtectedRoute.jsx';
 import GuestRoute from './routes/GuestRoute.jsx';
 
-import Home from './pages/Home.jsx';
-import Login from './pages/Login.jsx';
-import Register from './pages/Register.jsx';
-import Profile from './pages/Profile.jsx';
-import Cart from './pages/Cart.jsx';
-import Pizza from './pages/Pizza.jsx';
-import NotFound from './pages/NotFound.jsx';
+import Home from './src/pages/Home.jsx';
+import Login from './src/pages/Login.js';
+import Register from './src/pages/Register.js';
+import Profile from './src/pages/Profile.js';
+import Cart from './src/pages/Cart.js';
+import Pizza from './src/pages/Pizza.js';
+import NotFound from './src/pages/NotFound.js';
 
 export default function App() {
   return (
